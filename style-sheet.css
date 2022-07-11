@@ -1,13 +1,16 @@
 body{
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
 
 }
 .nav{
-    background-color: gray;
+    background-color: green;
     color: white; 
-    height: 10vh;
+    height: 15vh;
+    border-radius: 1rem;
+    margin: 10px;
 
 }
 .nav a{
@@ -41,4 +44,84 @@ nav ul {
     list-style: none;
     justify-content: space-around;
     float: right;
+    text-justify: center;
+    margin-top: 5vh;
+    
+    
+}
+@media screen and (max-width:600px) {
+    .nav{
+        background-color: green;
+        color: white; 
+        height: 60vh;
+        border-radius: 1rem;
+        
+        
+    
+    }
+    nav ul {
+        width:100%;
+        display: flex;
+        list-style: none;
+        flex-direction: column;
+        align-items: center;
+        font-size: 1.4rem;
+         margin-top: 5vh;
+        
+        
+    }
+    
+    
+}
+
+nav ul:last-child{
+    margin-right: 20px;
+}
+.srch{
+    text-align: center;
+    padding: none;
+    background-attachment: fixed;
+    height: 60vh;
+    width: 100%;
+    
+}
+.srch h1{
+    text-align: center;
+    color: green;
+    padding: 20px;
+    font-size: 4rem ;
+
+}
+.btn{
+   
+    border-radius: 1rem;
+    border: 1px solid green;
+    color: green;
+    font-size: 1.2rem;
+    width: 30%;
+    height: 15%;
+    margin-top: 10px;
+    
+
+
+}
+.btn:hover{
+    background-color: green;
+    color: black;
+    width: 31%;
+    height: 15.5%;
+    
+}
+.search{
+    width: 70%;
+    height: 15%;
+    border-radius: 1rem;
+    border: 2px solid green;
+    font-size: 1.2rem;
+
+}
+.search:hover{
+    width: 71%;
+    height: 16%;
+    
 }
