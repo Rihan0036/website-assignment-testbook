@@ -8,14 +8,14 @@ body{
 .bg-image{
     background-image: url(https://wallpaperaccess.com/full/89234.jpg);
     
-    margin: 20px;
+    
     border-radius: 2rem;
+    margin:5px;
 }
 .nav{
-    background-color: rgb(3, 20, 3);
+    
     color: white; 
     height: 15vh;
-    border-radius: 1rem;
     margin-top: 10px;
     
 
@@ -36,9 +36,9 @@ nav ul a:hover{
 }
 .active{
 
-    color: black;
-    border: 1px solid black;
-    border: 1px solid black;
+    color: white;
+    background-color:red;
+    border: 1px;
     border-radius: 1rem;
     padding: 5px;
 }
@@ -46,11 +46,11 @@ nav ul a:hover{
 
 
 nav ul {
-    width:50%;
+    width:60%;
     display: flex;
     list-style: none;
-    justify-content: space-around;
-    float: right;
+    justify-content:space-between;
+    float: left;
     text-justify: center;
     margin-top: 5vh;
     
@@ -88,7 +88,7 @@ nav ul:last-child{
     text-align: center;
     padding: none;
     background-attachment: fixed;
-    height: 60vh;
+    height: 75vh;
     width: 100%;
     
     
@@ -150,6 +150,7 @@ nav ul:last-child{
     font-size: 3rem;
     padding: 10px;
     margin-left: 5%;
+    text-align: center;
 }
 .section-list{
     list-style: none;
@@ -162,6 +163,7 @@ nav ul:last-child{
     margin-bottom: 10px;
     margin-right: 10px;
     border-radius: 2rem;
+    padding: 2px;
 }
 .section-list li:hover{
     border: 2px solid rgb(3, 20, 3);
@@ -171,7 +173,8 @@ nav ul:last-child{
 .section-list li img{
     height: 250px;
     width: 30%;
-    border-radius: 2rem;
+    border-top-right-radius: 2rem;
+    border-bottom-right-radius: 2rem;
     position: relative;
     object-fit: cover;
     float: right;
@@ -179,5 +182,29 @@ nav ul:last-child{
 }
 .section-list li p{
     font-size: 1.4rem;
+    text-align: justify;
+    margin-right: 5px;
 
+}
+.footer{
+    height: 200px;
+    background-color: gray;
+    color: white;
+    border-radius: 2rem;
+    margin: 10px;
+    
+    
+    
+    
+}
+.footer h2{
+
+    padding: 10px;
+    font-size: 2rem;
+    text-align: center;
+    
+}
+.footer p{
+    text-align: center;
+    font-size: 1.2rem;
 }
